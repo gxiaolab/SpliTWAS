@@ -22,7 +22,10 @@ PSI is calculated using the set of scripts and annotations described in: [PSI_Ca
 
 Utilizing the PSI_matrix_clean_up.py script we can feed our PSI matrix compromised of exons x samples, to remove exons with little to no variance `sd < 0.005`, missing in over 60% of samples, and impute values for those with over 40% coverage. 
 
-Additionally the script will transform the matrix from PSI values to S-Values with the following formula  $` S-Value = log2(PSI/1+alpha-PSI) `$
+Additionally the script will transform the matrix from PSI values to S-Values with the following formula  
+
+$$ S-Value = { log_2 (PSI \over 1+alpha-PSI)} $$
+
 
 ### SpliTWAS predictive models
 

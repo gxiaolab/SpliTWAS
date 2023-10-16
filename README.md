@@ -24,7 +24,7 @@ Utilizing the PSI_matrix_clean_up.py script we can feed our PSI matrix compromis
 
 Additionally the script will transform the matrix from PSI values to S-Values with the following formula  
 
-$$ S-Value = { log_2 (PSI \over 1+alpha-PSI)} $$
+$$ S-Value = log_2({PSI \over 1+alpha-PSI}) $$
 
 
 ### SpliTWAS predictive models

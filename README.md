@@ -26,8 +26,16 @@ Additionally the script will transform the matrix from PSI values to S-Values wi
 
 $$ S-Value = log_2({PSI \over 1+alpha-PSI}) $$
 
+PSI values typically follow a bimodal distribution centered around 0 and 1, which violates the assumption of a Gaussian distribution made by the regression schemes used to build the predictive models
 
 ### SpliTWAS predictive models
 
-After installation of 
+To compute your own predictive models, we follow the same procedure described in the section "Compute your own predictive models" of [FUSION]([url](http://gusevlab.org/projects/fusion/)), but utilizing the `SpliTWAS_Weight_compute.sh` and `SpliTWAS.compute_weights.R` provided in the `Scripts` directory in this repository.
 
+Both of these scripts are modfified versions of the original FUSION scripts. Input file assumptions are for both of the scripts are the same with the exception of using the S-value matrix instead of a gene-expression matrix.
+
+Caveats and tips described in [FUSION]([url](http://gusevlab.org/projects/fusion/)) apply for SpliTWAS.
+
+### SpliTWAS associations
+
+Similarly for associations the steps and guidelines should be followed as described in the "Typical analysis and output" section of [FUSION]([url](http://gusevlab.org/projects/fusion/)), however just in like the step above, please utilize the modified script `SpliTWAS.assoc_test.R` instead of `FUSION.assoc_test.R` as it is a modified version that fits the SpliTWAS framework.

@@ -24,7 +24,7 @@ Utilizing the PSI_matrix_clean_up.py script we can feed our PSI matrix compromis
 
 Additionally the script will transform the matrix from PSI values to S-Values with the following formula  
 
-$$ S-Value = log_2({PSI \over 1+alpha-PSI}) $$
+$$ S-Value = log_2({PSI \over 1+\alpha-PSI}) $$
 
 PSI values typically follow a bimodal distribution centered around 0 and 1, which violates the assumption of a Gaussian distribution made by the regression schemes used to build the predictive models
 

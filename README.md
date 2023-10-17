@@ -4,7 +4,7 @@ SpliTWAS is framework that associates the genetically driven complexity of alter
 
 SpliTWAS examines alternative splicing patterns to identify splicing-trait associations which are then fine-mapped at both the gene and exon levels. The degree of alternative splicing of an exon is quantified through percent spliced in (PSI), which indicates the level of exon inclusion in the transcriptpopulation of a gene, allowing an exon-centric view of the transcriptome. 
 
-The SpliTWAS framework is based on the work of Gusev et al. “[Integrative approaches for large-scale transcriptome-wide association studies](https://www.ncbi.nlm.nih.gov/pubmed/26854917)” 2016 Nature Genetics, with modifications described in our publication. Similarly to the FUSION/TWAS framework, the user can decide wether to compute their own predictive models for splicing based on an RNA-seq panel paired with genotype data or use precomputed models from BrainGVEX and CommonMind datasets availabile at [Models](https://www.ncbi.nlm.nih.gov/pubmed/26854917).
+The SpliTWAS framework is based on the work of Gusev et al. “[Integrative approaches for large-scale transcriptome-wide association studies](https://www.ncbi.nlm.nih.gov/pubmed/26854917)” 2016 Nature Genetics, with modifications described in our publication. Similarly to the FUSION/TWAS framework, the user can decide wether to compute their own predictive models for splicing based on an RNA-seq panel paired with genotype data or use precomputed models from BrainGVEX and CommonMind datasets availabile at [Models](https://zenodo.org/records/10015110).
 
 
 
